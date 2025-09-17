@@ -12,7 +12,7 @@ k380-macos_darwin-aarch64
 ```
 
 #### How to use
-$ sudo ./k380-macos_darwin-x86_64 -f on|off
+$ sudo ./k380-macos -f on|off
 
 - `-f on|off` : 手動で F キーの標準モードを切り替え
 - `--auto on|off` : 常駐して接続を監視し、自動でシーケンスを送信
@@ -21,7 +21,7 @@ $ sudo ./k380-macos_darwin-x86_64 -f on|off
 自動モード例:
 
 ```
-$ sudo ./k380-macos_darwin-x86_64 --auto on
+$ sudo ./k380-macos --auto on
 ```
 
 Logitech Options を使わなくても、キーボード接続時に F キーを標準動作へ切り替えられます。
