@@ -4,5 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-hidapi = "2.6.3"
-
+hidapi = "2.6"
+core-foundation = "0.10"
+core-foundation-sys = "0.8"
+io-kit-sys = "0.4"
